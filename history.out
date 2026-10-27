@@ -1,0 +1,5 @@
+    1  sudo dnf update
+    2  sudo reboot
+    3  ps -eo ruid,euid,pid,comm | awk '$1 != 0 && $2 == 0'
+    4  my_number_M265200
+    5  history > ~/history.out
