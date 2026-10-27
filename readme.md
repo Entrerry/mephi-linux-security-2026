@@ -121,7 +121,7 @@ ps -eo ruid,euid,pid,comm | awk '$1 != 0 && $2 == 0' > ~/suid_processes.out
 
 | Файл | Описание |
 | :--- | :--- |
-| `mephi-screenshot.png` | Скриншот рабочего стола с выведенным индивидуальным шифром |
+| `mephi-screenshot2.png` | Скриншот рабочего стола с выведенным индивидуальным шифром |
 | `history.out` | Дамп истории команд терминала |
 | `stat.out` | Вывод команды `stat` для директории `/home/user1` и утилит `mycat`, `mychown` |
 | `getcap.out` | Результат проверки привилегий Linux Capabilities утилиты `mychown` |
